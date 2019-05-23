@@ -1,5 +1,10 @@
 {
+  "scripts": {
+    "run:web": "parcel serve src/web/index.html",
+    "run:node": "parcel build -t node src/node/index.ts && node dist/index.js"
+  },
   "devDependencies": {
-    "typescript": "^3.2.2"
+    "typescript": "^3.2.2",
+    "parcel": "^1.12.3"
   }
 }
